@@ -1,0 +1,23 @@
+{
+    "locationID": "%10d",
+    "employees": [
+        {
+            "name": "%s %s",
+            "id": "%10d",
+            "email": "%10s@%s.com",
+            "phone": "+1 %10d"
+        },
+        {
+            "name": "%s %s",
+            "id": "%10d",
+            "email": "%10s@%s.com",
+            "phone": "+1 %10d"
+        },
+        {
+            "name": "%s %s",
+            "id": "%10d",
+            "email": "%10s@%s.com",
+            "phone": "+1 %10d"
+        }
+    ]
+}

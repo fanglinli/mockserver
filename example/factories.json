@@ -1,0 +1,11 @@
+{
+    "locationID": "%10d",
+    "address": "%d %10s %1s%1d%1s %1d%1s%1d",
+    "coordinates": {
+        "lat": "%2d.%7d",
+        "log": "-%2d.%7d"
+    },
+
+    "numEmployees": "%3d",
+    "abc": "%5d"
+}
