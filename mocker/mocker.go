@@ -22,7 +22,7 @@ func HandleRequestForFile(filePath, fileName string) {
 
 // baseName returns the name of a file without the extension.
 func baseName(fileName string) string {
-	for i := len(fileName) - 1; i > 0 && fileName[i] != '/'; i-- {
+	for i := 0; i < len(fileName)-1 && fileName[i] != '/'; i++ {
 		if fileName[i] == '.' {
 			return fileName[:i]
 		}
