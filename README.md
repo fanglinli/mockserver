@@ -10,8 +10,8 @@ Required
 - Go 1.8 and above
 
 ``` bash
-go get github.com/fanglinli/mockserver
-go build
+$ go get github.com/fanglinli/mockserver
+$ go build
 ```
 
 ## Usage
@@ -38,8 +38,8 @@ Note: Default size is five.
 ## Example
 
 ``` bash
-./mockserver -folder example
-curl localhost:8080/employees
+$ ./mockserver -folder example
+$ curl localhost:8080/employees
 ```
 
 Returns a response like the following:
